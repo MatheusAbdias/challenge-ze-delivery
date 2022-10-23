@@ -1,0 +1,21 @@
+{
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+
+  "conventionalCommits.scopes": ["poetry", "vscode", "ze-delivery", "stores"],
+
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+
+  "python.analysis.extraPaths": ["./src"],
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.testing.unittestArgs": ["-v", "-s", "./src", "-p", "test_*.py"],
+  "python.testing.pytestEnabled": true,
+  "python.testing.cwd": "./src"
+}

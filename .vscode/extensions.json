@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "vivaxy.vscode-conventional-commits",
+    "eamodio.gitlens",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "littlefoxteam.vscode-python-test-adapter",
+    "ms-vscode.test-adapter-converter",
+    "hbenl.vscode-test-explorer"
+  ]
+}
